@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página - Exequiel Olea</title>
+
+<style>
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px;
+    background:#eaeaea;
+}
+
+header img{
+    width:300px;
+    border-radius:10px;
+}
+
+.header-text{
+    max-width:400px;
+}
+
+.header-text h1{
+    font-size:40px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#777;
+    color:white;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* SECCIONES */
+section{
+    padding:40px;
+}
+
+/* SOBRE MI */
+#sobre-mi{
+    background:black;
+    color:white;
+}
+
+.sobre-container{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.sobre-container img{
+    width:200px;
+    border-radius:10px;
+}
+
+.text-box{
+    max-width:300px;
+}
+
+/* ESTUDIOS */
+#estudios{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    flex-wrap:wrap;
+    background:#eaeaea;
+}
+
+#estudios img{
+    width:300px;
+    border-radius:10px;
+}
+
+/* NOTAS */
+#notas{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+/* COMPAÑEROS */
+#compañeros{
+    background:linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+.lista{
+    max-width:400px;
+}
+
+.fotos{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.fotos img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+/* ASPIRACIONES */
+#aspiraciones{
+    background:#e8e1d8;
+    text-align:center;
+}
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.galeria img{
+    width:250px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#333;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="foto1.jpg" alt="Foto personal">
+
+    <div class="header-text">
+        <h1>Hola, me llamo Exequiel Olea</h1>
+        <p>Esta es mi página web, espero que te guste</p>
+        <button class="btn">INICIAR</button>
+    </div>
+</header>
+
+<!-- SOBRE MI -->
+<section id="sobre-mi">
+    <h2>SOBRE MI</h2>
+
+    <div class="sobre-container">
+        <img src="foto2.jpg" alt="Foto sobre mi">
+
+        <div class="text-box">
+            <p>Me llamo Exequiel, tengo 20 años, estudio desarrollo de software.</p>
+        </div>
+
+        <div class="text-box">
+            <p>Mis hobbies son dormir, comer, salir en bici, tomar mates y escuchar música.</p>
+        </div>
+
+        <div class="text-box">
+            <p>Mis intereses son aprender cosas nuevas y mejorar mis habilidades técnicas.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ESTUDIOS -->
+<section id="estudios">
+    <img src="universidad.jpg" alt="Universidad">
+
+    <article>
+        <h2>ESTUDIOS</h2>
+        <p>Estudiando Tec en Desarrollo y Calidad de Software. Actualmente en 2do año.</p>
+    </article>
+</section>
+
+<!-- NOTAS -->
+<section id="notas">
+    <img src="notas.jpg" alt="Notas" width="300">
+
+    <article>
+        <h2>Mis Notas</h2>
+        <p>Aquí muestro mis notas del primer año.</p>
+    </article>
+</section>
+
+<!-- COMPAÑEROS -->
+<section id="compañeros">
+    <h2>Lista de compañeros</h2>
+
+    <div class="lista">
+        <p>1 - Fabricio M</p>
+        <p>2 - Emilio L</p>
+        <p>3 - Gerardo A</p>
+        <p>4 - Lautaro M</p>
+        <p>5 - Bruno B</p>
+        <p>6 - Thomas J</p>
+        <p>7 - David M</p>
+    </div>
+
+    <div class="fotos">
+        <img src="c1.jpg">
+        <img src="c2.jpg">
+        <img src="c3.jpg">
+    </div>
+</section>
+
+<!-- ASPIRACIONES -->
+<section id="aspiraciones">
+    <h2>MIS ASPIRACIONES</h2>
+
+    <p>
+        Recibirme, conseguir trabajo estable, ayudar a mi familia y crecer profesionalmente.
+    </p>
+
+    <div class="galeria">
+        <img src="vida1.jpg">
+        <img src="vida2.jpg">
+        <img src="vida3.jpg">
+    </div>
+
+    <button class="btn">FINALIZAR</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 - Exequiel Olea</p>
+</footer>
+
+</body>
+</html>
